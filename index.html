@@ -6,13 +6,153 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zevolution | Zambia's Digital Evolution</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+  <link rel="stylesheet" href="./test.css">
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+    }
+
+    .container {
+      height: 100vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      opacity: 0;
+    }
+
+    .container.visible {
+      opacity: 1;
+    }
+
+    .zevolution-logo {
+      text-align: center;
+      margin-bottom: 8%;
+    }
+
+    .zevolution-logo__image {
+      width: 90%;
+      max-width: 1000px;
+    }
+
+    .coming-soon {
+      opacity: 0;
+      color: white;
+      text-align: center;
+      font-size: 4em;
+      font-family: 'Black Ops One', cursive;
+      -webkit-transition: 1s linear opacity;
+      -o-transition: 1s linear opacity;
+      transition: 1s linear opacity;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #03a9f4, 0 0 30px #03a9f4,
+      0 0 40px #03a9f4, 0 0 55px #03a9f4, 0 0 75px #03a9f4;
+      -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+      animation: neon 1.5s ease-in-out infinite alternate;
+    }
+
+    .coming-soon.visible {
+      opacity: 1;
+    }
+
+    @-webkit-keyframes neon {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #13a9f4,
+        0 0 70px #13a9f4, 0 0 80px #13a9f4, 0 0 100px #13a9f4, 0 0 150px #13a9f4;
+      }
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #13a9f4,
+        0 0 35px #13a9f4, 0 0 40px #13a9f4, 0 0 50px #13a9f4, 0 0 75px #13a9f4;
+      }
+    }
+
+    @keyframes neon {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #13a9f4,
+        0 0 70px #13a9f4, 0 0 80px #13a9f4, 0 0 100px #13a9f4, 0 0 150px #13a9f4;
+      }
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #13a9f4,
+        0 0 35px #13a9f4, 0 0 40px #13a9f4, 0 0 50px #13a9f4, 0 0 75px #13a9f4;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
+  <main class="container">
+    <div class="zevolution-logo">
+      <svg width="191.1mm" id="zevolution-svg" height="23.418mm" style="" version="1.1" viewBox="0 0 191.10033 23.417664" xmlns="http://www.w3.org/2000/svg"
+        xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <g transform="translate(104.43 -30.724)">
+          <g transform="translate(-117.27 -9.1933)" fill-opacity="0" stroke="#9c27b0" stroke-linejoin="round" stroke-opacity=".98039"
+            stroke-width=".812">
+            <path class="GVWsOKrc_0" d="m76.593 62.634c-3.0527-0.66332-6.0217-2.9625-7.377-5.7126-0.76412-1.5506-1.3523-3.8522-1.3523-5.2917 0-0.46567 0.13998-1.5134 0.31108-2.3283 1.8508-8.8153 12.767-12.018 19.178-5.6256 2.2458 2.2392 3.231 4.6646 3.231 7.954 0 3.3029-0.9828 5.7099-3.2621 7.9892-2.8015 2.8015-6.6867 3.8933-10.729 3.0151z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_1" d="m82.617 59.262c3.404-1.8343 4.6008-5.07 4.6126-7.6702 0.03162-3.3341-1.9212-6.2935-4.7309-7.654-1.0365-0.4859-1.477-0.56312-3.2121-0.56312-1.7591 0-2.1698 0.0742-3.2808 0.59283-2.4815 1.1584-4.1197 3.4147-4.5656 6.2886-0.64405 4.151 1.4506 7.9618 5.1249 9.3235 1.6782 0.62195 4.2743 0.48569 6.0519-0.31764z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_2" d="m116.58 62.629c-1.6659-0.36159-2.8627-1.0503-4.0349-2.3219-1.8366-1.9925-1.8127-1.8496-1.8832-11.27l-0.0621-8.3079h3.1698l0.0647 7.8846c0.0625 7.6107 0.0806 7.914 0.52159 8.7312 0.92909 1.7218 2.5003 2.647 4.491 2.6446 2.0882-2e-3 3.6023-0.87847 4.5367-2.6246 0.44983-0.84064 0.46566-1.1038 0.52633-8.7513l0.0626-7.8846h3.1557v8.0411c0 7.4632-0.0297 8.1192-0.41326 9.1287-0.9514 2.5039-2.8292 4.1128-5.5124 4.7231-1.7418 0.39617-2.8238 0.39792-4.6226 8e-3z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_3" d="m166.38 62.643c-1.7569-0.38255-2.6844-0.80116-4.2494-1.9179-1.6502-1.1775-3.1067-3.1545-3.8602-5.2395-0.46887-1.2974-0.81089-1.9564-0.80005-3.9148 0.0105-1.9025 0.33115-2.4993 0.80005-3.7967 2.821-7.8056 12.913-10.004 18.822-4.0995 5.3924 5.3885 3.8468 14.757-2.9821 18.076-2.3878 1.1604-5.075 1.4708-7.7299 0.89272z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_4" d="m172.49 59.179c2.7226-1.3403 4.1438-3.6575 4.3292-7.0583 0.2902-5.3227-3.3205-9.1089-8.3989-8.807-4.9248 0.69816-7.2574 4.2733-7.2868 8.3157-0.23583 4.8208 4.5114 8.3702 8.1423 8.3023 1.5471-0.0587 2.038-0.1737 3.2141-0.75269z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_5" d="m13.247 60.984v-1.5467l5.7876-7.9254 5.7876-7.9254-5.2584-0.0566-5.2584-0.0566v-2.9561h14.605v2.7075l-5.9245 8.1184-5.9245 8.1184 6.1362 0.0561 6.1362 0.0561v2.9569h-16.087z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_6" d="m32.72 51.524v-11.007h12.277v2.9633h-8.89v6.5617h7.1967v2.9633h-7.1967v6.5617h9.3133v2.9633h-12.7z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_7" d="m55.931 62.372c-0.12752-0.2077-8.3942-21.432-8.3942-21.551 0-0.0504 0.78581-0.0905 1.7462-0.0892l1.7462 2e-3 2.3909 6.5063c1.315 3.5784 2.6307 7.2921 2.9239 8.2525 0.29314 0.96044 0.59837 1.7428 0.67828 1.7387 0.07991-4e-3 0.58832-1.3615 1.1298-3.0162 0.54147-1.6548 1.8622-5.3661 2.9349-8.2474l1.9504-5.2388h1.7695c1.7483 0 1.7673 6e-3 1.5857 0.47625-0.19939 0.51672-8.0416 20.626-8.2132 21.061-0.11321 0.2867-2.0804 0.3793-2.2483 0.10584z"
+              style="paint-order:fill markers" />
+            <path class="GVWsOKrc_8" d="m94.95 51.63v-10.901h3.3867v18.838h9.1017v2.9633h-12.488z" style="paint-order:fill markers" />
+            <path class="GVWsOKrc_9" d="m137.07 53.006v-9.525h-6.7733v-2.9633h16.51v2.9633h-6.5617v19.05h-3.175z" style="paint-order:fill markers"
+            />
+            <path class="GVWsOKrc_10" d="m149.98 51.524v-11.007h3.175v22.013h-3.175z" style="paint-order:fill markers" />
+            <path class="GVWsOKrc_11" d="m184.7 51.524v-11.007h2.9175l6.2142 8.2455c3.4178 4.535 6.2856 8.2498 6.3729 8.255 0.0873 5e-3 0.15875-3.7052 0.15875-8.2455v-8.255h3.175v22.032l-1.5155-0.0622-1.5155-0.0622-6.0104-7.9375c-3.3057-4.3656-6.148-8.077-6.3162-8.2474-0.26661-0.27028-0.30574 0.75231-0.30574 7.9904v8.3004h-3.175z"
+              style="paint-order:fill markers" />
+          </g>
+        </g>
+      </svg>
+    </div>
 
+    <div class="coming-soon" id="coming-soon">
+      COMING SOON
+    </div>
+  </main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/vivus@0.4.3/dist/vivus.min.js"></script>
-<script src="./js/main.js"></script>
+<script>
+  /**
+ * vivus - JavaScript library to make drawing animation on SVG
+ * @version v0.4.2
+ * @link https://github.com/maxwellito/vivus
+ * @license MIT
+ */
+  "use strict"; !function () { function t(t) { if ("undefined" == typeof t) throw new Error('Pathformer [constructor]: "element" parameter is required'); if (t.constructor === String && (t = document.getElementById(t), !t)) throw new Error('Pathformer [constructor]: "element" parameter is not related to an existing ID'); if (!(t instanceof window.SVGElement || t instanceof window.SVGGElement || /^svg$/i.test(t.nodeName))) throw new Error('Pathformer [constructor]: "element" parameter must be a string or a SVGelement'); this.el = t, this.scan(t) } function e(t, e, n) { r(), this.isReady = !1, this.setElement(t, e), this.setOptions(e), this.setCallback(n), this.isReady && this.init() } t.prototype.TYPES = ["line", "ellipse", "circle", "polygon", "polyline", "rect"], t.prototype.ATTR_WATCH = ["cx", "cy", "points", "r", "rx", "ry", "x", "x1", "x2", "y", "y1", "y2"], t.prototype.scan = function (t) { for (var e, r, n, i, a = t.querySelectorAll(this.TYPES.join(",")), o = 0; o < a.length; o++)r = a[o], e = this[r.tagName.toLowerCase() + "ToPath"], n = e(this.parseAttr(r.attributes)), i = this.pathMaker(r, n), r.parentNode.replaceChild(i, r) }, t.prototype.lineToPath = function (t) { var e = {}, r = t.x1 || 0, n = t.y1 || 0, i = t.x2 || 0, a = t.y2 || 0; return e.d = "M" + r + "," + n + "L" + i + "," + a, e }, t.prototype.rectToPath = function (t) { var e = {}, r = parseFloat(t.x) || 0, n = parseFloat(t.y) || 0, i = parseFloat(t.width) || 0, a = parseFloat(t.height) || 0; if (t.rx || t.ry) { var o = parseInt(t.rx, 10) || -1, s = parseInt(t.ry, 10) || -1; o = Math.min(Math.max(0 > o ? s : o, 0), i / 2), s = Math.min(Math.max(0 > s ? o : s, 0), a / 2), e.d = "M " + (r + o) + "," + n + " L " + (r + i - o) + "," + n + " A " + o + "," + s + ",0,0,1," + (r + i) + "," + (n + s) + " L " + (r + i) + "," + (n + a - s) + " A " + o + "," + s + ",0,0,1," + (r + i - o) + "," + (n + a) + " L " + (r + o) + "," + (n + a) + " A " + o + "," + s + ",0,0,1," + r + "," + (n + a - s) + " L " + r + "," + (n + s) + " A " + o + "," + s + ",0,0,1," + (r + o) + "," + n } else e.d = "M" + r + " " + n + " L" + (r + i) + " " + n + " L" + (r + i) + " " + (n + a) + " L" + r + " " + (n + a) + " Z"; return e }, t.prototype.polylineToPath = function (t) { var e, r, n = {}, i = t.points.trim().split(" "); if (-1 === t.points.indexOf(",")) { var a = []; for (e = 0; e < i.length; e += 2)a.push(i[e] + "," + i[e + 1]); i = a } for (r = "M" + i[0], e = 1; e < i.length; e++)-1 !== i[e].indexOf(",") && (r += "L" + i[e]); return n.d = r, n }, t.prototype.polygonToPath = function (e) { var r = t.prototype.polylineToPath(e); return r.d += "Z", r }, t.prototype.ellipseToPath = function (t) { var e = {}, r = parseFloat(t.rx) || 0, n = parseFloat(t.ry) || 0, i = parseFloat(t.cx) || 0, a = parseFloat(t.cy) || 0, o = i - r, s = a, h = parseFloat(i) + parseFloat(r), l = a; return e.d = "M" + o + "," + s + "A" + r + "," + n + " 0,1,1 " + h + "," + l + "A" + r + "," + n + " 0,1,1 " + o + "," + l, e }, t.prototype.circleToPath = function (t) { var e = {}, r = parseFloat(t.r) || 0, n = parseFloat(t.cx) || 0, i = parseFloat(t.cy) || 0, a = n - r, o = i, s = parseFloat(n) + parseFloat(r), h = i; return e.d = "M" + a + "," + o + "A" + r + "," + r + " 0,1,1 " + s + "," + h + "A" + r + "," + r + " 0,1,1 " + a + "," + h, e }, t.prototype.pathMaker = function (t, e) { var r, n, i = document.createElementNS("http://www.w3.org/2000/svg", "path"); for (r = 0; r < t.attributes.length; r++)n = t.attributes[r], -1 === this.ATTR_WATCH.indexOf(n.name) && i.setAttribute(n.name, n.value); for (r in e) i.setAttribute(r, e[r]); return i }, t.prototype.parseAttr = function (t) { for (var e, r = {}, n = 0; n < t.length; n++) { if (e = t[n], -1 !== this.ATTR_WATCH.indexOf(e.name) && -1 !== e.value.indexOf("%")) throw new Error("Pathformer [parseAttr]: a SVG shape got values in percentage. This cannot be transformed into 'path' tags. Please use 'viewBox'."); r[e.name] = e.value } return r }; var r, n, i, a; e.LINEAR = function (t) { return t }, e.EASE = function (t) { return -Math.cos(t * Math.PI) / 2 + .5 }, e.EASE_OUT = function (t) { return 1 - Math.pow(1 - t, 3) }, e.EASE_IN = function (t) { return Math.pow(t, 3) }, e.EASE_OUT_BOUNCE = function (t) { var e = -Math.cos(.5 * t * Math.PI) + 1, r = Math.pow(e, 1.5), n = Math.pow(1 - t, 2), i = -Math.abs(Math.cos(2.5 * r * Math.PI)) + 1; return 1 - n + i * n }, e.prototype.setElement = function (t, e) { if ("undefined" == typeof t) throw new Error('Vivus [constructor]: "element" parameter is required'); if (t.constructor === String && (t = document.getElementById(t), !t)) throw new Error('Vivus [constructor]: "element" parameter is not related to an existing ID'); if (this.parentEl = t, e && e.file) { var r = document.createElement("object"); r.setAttribute("type", "image/svg+xml"), r.setAttribute("data", e.file), r.setAttribute("built-by-vivus", "true"), t.appendChild(r), t = r } switch (t.constructor) { case window.SVGSVGElement: case window.SVGElement: case window.SVGGElement: this.el = t, this.isReady = !0; break; case window.HTMLObjectElement: var n, i; i = this, n = function (e) { if (!i.isReady) { if (i.el = t.contentDocument && t.contentDocument.querySelector("svg"), !i.el && e) throw new Error("Vivus [constructor]: object loaded does not contain any SVG"); return i.el ? (t.getAttribute("built-by-vivus") && (i.parentEl.insertBefore(i.el, t), i.parentEl.removeChild(t), i.el.setAttribute("width", "100%"), i.el.setAttribute("height", "100%")), i.isReady = !0, i.init(), !0) : void 0 } }, n() || t.addEventListener("load", n); break; default: throw new Error('Vivus [constructor]: "element" parameter is not valid (or miss the "file" attribute)') } }, e.prototype.setOptions = function (t) { var r = ["delayed", "sync", "async", "nsync", "oneByOne", "scenario", "scenario-sync"], n = ["inViewport", "manual", "autostart"]; if (void 0 !== t && t.constructor !== Object) throw new Error('Vivus [constructor]: "options" parameter must be an object'); if (t = t || {}, t.type && -1 === r.indexOf(t.type)) throw new Error("Vivus [constructor]: " + t.type + " is not an existing animation `type`"); if (this.type = t.type || r[0], t.start && -1 === n.indexOf(t.start)) throw new Error("Vivus [constructor]: " + t.start + " is not an existing `start` option"); if (this.start = t.start || n[0], this.isIE = -1 !== window.navigator.userAgent.indexOf("MSIE") || -1 !== window.navigator.userAgent.indexOf("Trident/") || -1 !== window.navigator.userAgent.indexOf("Edge/"), this.duration = a(t.duration, 120), this.delay = a(t.delay, null), this.dashGap = a(t.dashGap, 1), this.forceRender = t.hasOwnProperty("forceRender") ? !!t.forceRender : this.isIE, this.reverseStack = !!t.reverseStack, this.selfDestroy = !!t.selfDestroy, this.onReady = t.onReady, this.map = [], this.frameLength = this.currentFrame = this.delayUnit = this.speed = this.handle = null, this.ignoreInvisible = t.hasOwnProperty("ignoreInvisible") ? !!t.ignoreInvisible : !1, this.animTimingFunction = t.animTimingFunction || e.LINEAR, this.pathTimingFunction = t.pathTimingFunction || e.LINEAR, this.delay >= this.duration) throw new Error("Vivus [constructor]: delay must be shorter than duration") }, e.prototype.setCallback = function (t) { if (t && t.constructor !== Function) throw new Error('Vivus [constructor]: "callback" parameter must be a function'); this.callback = t || function () { } }, e.prototype.mapping = function () { var t, e, r, n, i, o, s, h; for (h = o = s = 0, e = this.el.querySelectorAll("path"), t = 0; t < e.length; t++)r = e[t], this.isInvisible(r) || (i = { el: r, length: Math.ceil(r.getTotalLength()) }, isNaN(i.length) ? window.console && console.warn && console.warn("Vivus [mapping]: cannot retrieve a path element length", r) : (this.map.push(i), r.style.strokeDasharray = i.length + " " + (i.length + 2 * this.dashGap), r.style.strokeDashoffset = i.length + this.dashGap, i.length += this.dashGap, o += i.length, this.renderPath(t))); for (o = 0 === o ? 1 : o, this.delay = null === this.delay ? this.duration / 3 : this.delay, this.delayUnit = this.delay / (e.length > 1 ? e.length - 1 : 1), this.reverseStack && this.map.reverse(), t = 0; t < this.map.length; t++) { switch (i = this.map[t], this.type) { case "delayed": i.startAt = this.delayUnit * t, i.duration = this.duration - this.delay; break; case "oneByOne": i.startAt = s / o * this.duration, i.duration = i.length / o * this.duration; break; case "sync": case "async": case "nsync": i.startAt = 0, i.duration = this.duration; break; case "scenario-sync": r = i.el, n = this.parseAttr(r), i.startAt = h + (a(n["data-delay"], this.delayUnit) || 0), i.duration = a(n["data-duration"], this.duration), h = void 0 !== n["data-async"] ? i.startAt : i.startAt + i.duration, this.frameLength = Math.max(this.frameLength, i.startAt + i.duration); break; case "scenario": r = i.el, n = this.parseAttr(r), i.startAt = a(n["data-start"], this.delayUnit) || 0, i.duration = a(n["data-duration"], this.duration), this.frameLength = Math.max(this.frameLength, i.startAt + i.duration) }s += i.length, this.frameLength = this.frameLength || this.duration } }, e.prototype.drawer = function () { var t = this; if (this.currentFrame += this.speed, this.currentFrame <= 0) this.stop(), this.reset(); else { if (!(this.currentFrame >= this.frameLength)) return this.trace(), this.handle = n(function () { t.drawer() }), void 0; this.stop(), this.currentFrame = this.frameLength, this.trace(), this.selfDestroy && this.destroy() } this.callback(this), this.instanceCallback && (this.instanceCallback(this), this.instanceCallback = null) }, e.prototype.trace = function () { var t, e, r, n; for (n = this.animTimingFunction(this.currentFrame / this.frameLength) * this.frameLength, t = 0; t < this.map.length; t++)r = this.map[t], e = (n - r.startAt) / r.duration, e = this.pathTimingFunction(Math.max(0, Math.min(1, e))), r.progress !== e && (r.progress = e, r.el.style.strokeDashoffset = Math.floor(r.length * (1 - e)), this.renderPath(t)) }, e.prototype.renderPath = function (t) { if (this.forceRender && this.map && this.map[t]) { var e = this.map[t], r = e.el.cloneNode(!0); e.el.parentNode.replaceChild(r, e.el), e.el = r } }, e.prototype.init = function () { this.frameLength = 0, this.currentFrame = 0, this.map = [], new t(this.el), this.mapping(), this.starter(), this.onReady && this.onReady(this) }, e.prototype.starter = function () { switch (this.start) { case "manual": return; case "autostart": this.play(); break; case "inViewport": var t = this, e = function () { t.isInViewport(t.parentEl, 1) && (t.play(), window.removeEventListener("scroll", e)) }; window.addEventListener("scroll", e), e() } }, e.prototype.getStatus = function () { return 0 === this.currentFrame ? "start" : this.currentFrame === this.frameLength ? "end" : "progress" }, e.prototype.reset = function () { return this.setFrameProgress(0) }, e.prototype.finish = function () { return this.setFrameProgress(1) }, e.prototype.setFrameProgress = function (t) { return t = Math.min(1, Math.max(0, t)), this.currentFrame = Math.round(this.frameLength * t), this.trace(), this }, e.prototype.play = function (t, e) { if (this.instanceCallback = null, t && "function" == typeof t) this.instanceCallback = t, t = null; else if (t && "number" != typeof t) throw new Error("Vivus [play]: invalid speed"); return e && "function" == typeof e && !this.instanceCallback && (this.instanceCallback = e), this.speed = t || 1, this.handle || this.drawer(), this }, e.prototype.stop = function () { return this.handle && (i(this.handle), this.handle = null), this }, e.prototype.destroy = function () { this.stop(); var t, e; for (t = 0; t < this.map.length; t++)e = this.map[t], e.el.style.strokeDashoffset = null, e.el.style.strokeDasharray = null, this.renderPath(t) }, e.prototype.isInvisible = function (t) { var e, r = t.getAttribute("data-ignore"); return null !== r ? "false" !== r : this.ignoreInvisible ? (e = t.getBoundingClientRect(), !e.width && !e.height) : !1 }, e.prototype.parseAttr = function (t) { var e, r = {}; if (t && t.attributes) for (var n = 0; n < t.attributes.length; n++)e = t.attributes[n], r[e.name] = e.value; return r }, e.prototype.isInViewport = function (t, e) { var r = this.scrollY(), n = r + this.getViewportH(), i = t.getBoundingClientRect(), a = i.height, o = r + i.top, s = o + a; return e = e || 0, n >= o + a * e && s >= r }, e.prototype.getViewportH = function () { var t = this.docElem.clientHeight, e = window.innerHeight; return e > t ? e : t }, e.prototype.scrollY = function () { return window.pageYOffset || this.docElem.scrollTop }, r = function () { e.prototype.docElem || (e.prototype.docElem = window.document.documentElement, n = function () { return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (t) { return window.setTimeout(t, 1e3 / 60) } }(), i = function () { return window.cancelAnimationFrame || window.webkitCancelAnimationFrame || window.mozCancelAnimationFrame || window.oCancelAnimationFrame || window.msCancelAnimationFrame || function (t) { return window.clearTimeout(t) } }()) }, a = function (t, e) { var r = parseInt(t, 10); return r >= 0 ? r : e }, "function" == typeof define && define.amd ? define([], function () { return e }) : "object" == typeof exports ? module.exports = e : window.Vivus = e }();
+</script>
+<script>
+  var text = document.getElementById('coming-soon');
+  new Vivus(
+    'zevolution-svg',
+    {
+      onReady: function () {
+        var container = document.querySelector('.container');
+        container.classList.add('visible');
+      },
+      duration: 120,
+      animTimingFunction: Vivus.EASE
+    },
+    function () {
+      text.classList.add('visible');
+    }
+  );
+
+</script>
 
 </html>
